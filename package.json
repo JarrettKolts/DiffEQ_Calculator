@@ -1,0 +1,24 @@
+{
+  "name": "diffeq_calculator",
+  "version": "1.0.0",
+  "description": "This web application takes differential equations as user input and solves for the homogenous (and particular if given nonzero u(t)) solutions and plots them to help visualize the natural response of a system.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd server && python app.py\" \"cd client && npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JarrettKolts/DiffEQ_Calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JarrettKolts/DiffEQ_Calculator/issues"
+  },
+  "homepage": "https://github.com/JarrettKolts/DiffEQ_Calculator#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
